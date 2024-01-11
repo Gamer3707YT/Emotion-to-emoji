@@ -1,0 +1,42 @@
+body
+{
+  color: white;
+  background: #c0d3ff;
+  animation-name: bodybg;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  color : whitesmoke;
+}
+@keyframes bodybg {
+  0%{background-color: black;}
+  50%{background-color: lightslategrey;}
+  75%{background-color: gray;}
+  100%{background-color: black;}
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.heading{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
